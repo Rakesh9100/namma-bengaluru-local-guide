@@ -1,5 +1,10 @@
 # 🛵 Namma Bengaluru – Real-Life Decision Assistant
 
+![AI for Bharat](https://img.shields.io/badge/AI%20for%20Bharat-Week%205-blue?style=for-the-badge)
+![Challenge](https://img.shields.io/badge/Challenge-Local%20Guide-green?style=for-the-badge)
+![Tech](https://img.shields.io/badge/Tech-Vanilla%20JS-yellow?style=for-the-badge)
+![AI](https://img.shields.io/badge/AI-Kiro%20Powered-purple?style=for-the-badge)
+
 A Bengaluru-specific AI assistant that answers like a long-time local resident, helping people make practical decisions about navigating city life.
 
 ## 🎯 Challenge: Week 5 - The Local Guide
@@ -13,10 +18,14 @@ This project addresses the "Local Guide" theme by building an AI assistant that 
 - **Cultural Awareness**: Uses local phrases ("anna", "guru", "adjust maadi")
 - **Real-World Scenarios**: Traffic reality, food safety, auto negotiations
 
-## 🚀 Quick Start
+## 🎮 Try It Live
 
-1. Open `index.html` in your browser
-2. Ask questions like:
+**🌐 Live Demo**: [https://rakesh9100.github.io/Namma-Bengaluru-Local-Guide/](https://rakesh9100.github.io/Namma-Bengaluru-Local-Guide/)
+
+### Local Setup:
+1. Clone the repository: `git clone https://github.com/rakesh9100/Namma-Bengaluru-Local-Guide.git`
+2. Open `index.html` in your browser
+3. Ask questions like:
    - "Should I leave for Whitefield at 6 PM?"
    - "Is it safe to eat pani puri at 10 PM?"
    - "Should I take ORR or Sarjapur Road at 7 PM?"
@@ -36,13 +45,15 @@ const CONFIG = {
 ## 📁 Project Structure
 
 ```
-├── .kiro/
-│   └── product.md          # Bengaluru-specific context
-├── src/
-│   └── kiroPrompt.js       # System prompt definition
-├── app.js                  # Main application logic
-├── index.html              # User interface
-└── README.md
+├── 📁 .kiro/
+│   └── 📄 product.md          # Bengaluru-specific context
+├── 📁 src/
+│   └── 📄 kiroPrompt.js       # System prompt definition
+├── 📄 app.js                  # Main application logic
+├── 📄 index.html              # User interface
+├── 📄 style.css               # Styling
+├── 📄 package.json            # Project configuration
+└── 📄 README.md               # Documentation
 ```
 
 ## 🧠 How It Works
@@ -83,3 +94,5 @@ This approach avoids complex rule-based logic and instead teaches the AI how loc
 ---
 
 ### **🌟 Built for AI for Bharat Week 5 Challenge 🌟**
+
+**Made with ❤️ in Bengaluru**
