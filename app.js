@@ -384,7 +384,7 @@ For example:
 - "Is it safe to eat at that CTR in Malleshwaram?" (I'll say go for it!)
 - "How long to reach Brigade Road from Koramangala on Sunday?" (I'll give you realistic timing)
 
-The more specific you are, the better local wisdom I can share! 🛵`;
+The more specific you are, the better local wisdom I can share!`;
     }
 
     // Final fallback
@@ -398,7 +398,7 @@ Try asking something like:
 - "How early should I leave for a 9 AM meeting in Electronic City?"
 - "Is the metro better than Uber during peak hours?"
 
-The more specific you are, the better local advice I can give you! 🛵`;
+The more specific you are, the better local advice I can give you!`;
 }
 
 /**

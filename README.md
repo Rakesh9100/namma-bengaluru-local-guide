@@ -20,10 +20,10 @@ This project addresses the "Local Guide" theme by building an AI assistant that 
 
 ## 🎮 Try It Live
 
-**🌐 Live Demo**: [https://rakesh9100.github.io/Namma-Bengaluru-Local-Guide/](https://rakesh9100.github.io/Namma-Bengaluru-Local-Guide/)
+**🌐 Live Demo**: [https://rakesh9100.github.io/namma-bengaluru-local-guide/](https://rakesh9100.github.io/namma-bengaluru-local-guide/)
 
 ### Local Setup:
-1. Clone the repository: `git clone https://github.com/rakesh9100/Namma-Bengaluru-Local-Guide.git`
+1. Clone the repository: `git clone https://github.com/rakesh9100/namma-bengaluru-local-guide.git`
 2. Open `index.html` in your browser
 3. Ask questions like:
    - "Should I leave for Whitefield at 6 PM?"

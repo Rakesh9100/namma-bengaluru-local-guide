@@ -20,7 +20,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Rakesh9100/namma-bengaluru-guide.git"
+    "url": "https://github.com/rakesh9100/namma-bengaluru-local-guide.git"
   },
   "devDependencies": {
     "live-server": "^1.2.2"
