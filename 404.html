@@ -2,10 +2,29 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Page Not Found - Namma Bengaluru</title>
-    <link rel="stylesheet" href="style.css">
+
+    <!-- Absolute path required for GitHub Pages project sites -->
+    <link rel="stylesheet" href="/Namma-Bengaluru-Local-Guide/style.css" />
+
+    <script>
+        (function () {
+            const correctBasePath = "/Namma-Bengaluru-Local-Guide/";
+            const currentPath = window.location.pathname.toLowerCase();
+
+            if (!currentPath.startsWith(correctBasePath.toLowerCase())) {
+                window.location.replace(correctBasePath);
+            }
+        })();
+    </script>
+
+    <!-- Fallback if JavaScript is disabled -->
+    <noscript>
+        <meta http-equiv="refresh" content="0; url=/Namma-Bengaluru-Local-Guide/" />
+    </noscript>
+
     <style>
         .error-container {
             text-align: center;
@@ -13,22 +32,26 @@
             max-width: 600px;
             margin: 0 auto;
         }
+
         .error-code {
             font-size: 6em;
             font-weight: bold;
             color: #667eea;
             margin: 0;
         }
+
         .error-message {
             font-size: 1.5em;
             margin: 20px 0;
             color: #2c3e50;
         }
+
         .local-message {
             font-style: italic;
             color: #7f8c8d;
             margin: 20px 0;
         }
+
         .home-button {
             display: inline-block;
             background: linear-gradient(45deg, #667eea, #764ba2);
@@ -40,37 +63,34 @@
             margin-top: 20px;
             transition: transform 0.3s ease;
         }
+
         .home-button:hover {
             transform: translateY(-2px);
         }
     </style>
 </head>
+
 <body>
     <div class="container">
         <div class="error-container">
             <h1 class="error-code">404</h1>
-            <h2 class="error-message">Oops! This page got lost in Bengaluru traffic! 🛵</h2>
+
+            <h2 class="error-message">
+                Oops! This page got lost in Bengaluru traffic 🛵
+            </h2>
+
             <p class="local-message">
-                "Anna, this URL is like trying to find a parking spot in Commercial Street - it doesn't exist!"
+                “Anna, this URL is like searching for parking in Commercial Street —
+                it just doesn't exist!”
             </p>
-            <p>The page you're looking for might have been moved, deleted, or you entered the wrong URL.</p>
-            <a href="/" class="home-button">Take Me Home</a>
+
+            <p>Redirecting you to the correct route...</p>
+
+            <a href="/Namma-Bengaluru-Local-Guide/" class="home-button">
+                Take Me Home
+            </a>
         </div>
     </div>
-
-    <script>
-        // Handle case-sensitive URL redirects for GitHub Pages
-        window.onload = () => {
-            const currentURL = window.location.href;
-            const lowerCaseURL = currentURL.toLowerCase();
-            
-            // If URL has wrong case, redirect to correct case
-            if (currentURL !== lowerCaseURL && currentURL.includes('namma-bengaluru-local-guide')) {
-                const correctURL = currentURL.replace('namma-bengaluru-local-guide', 'Namma-Bengaluru-Local-Guide');
-                location.replace(correctURL);
-            }
-        };
-    </script>
 </body>
 
 </html>
