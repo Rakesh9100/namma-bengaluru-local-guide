@@ -3,7 +3,7 @@
 ![AI for Bharat](https://img.shields.io/badge/AI%20for%20Bharat-Week%205-blue?style=for-the-badge)
 ![Challenge](https://img.shields.io/badge/Challenge-Local%20Guide-green?style=for-the-badge)
 ![Tech](https://img.shields.io/badge/Tech-Vanilla%20JS-yellow?style=for-the-badge)
-![AI](https://img.shields.io/badge/AI-Kiro%20Powered-purple?style=for-the-badge)
+![AI](https://img.shields.io/badge/Powered%20by-Kiro-purple?style=for-the-badge)
 
 A Bengaluru-specific AI assistant that answers like a long-time local resident, helping people make practical decisions about navigating city life.
 
@@ -22,15 +22,19 @@ This project addresses the "Local Guide" theme by building an AI assistant that 
 
 **🌐 Live Demo**: [https://rakesh9100.github.io/namma-bengaluru-local-guide/](https://rakesh9100.github.io/namma-bengaluru-local-guide/)
 
-### Local Setup:
-1. Clone the repository: `git clone https://github.com/rakesh9100/namma-bengaluru-local-guide.git`
-2. Open `index.html` in your browser
-3. Ask questions like:
-   - "Should I leave for Whitefield at 6 PM?"
-   - "Is it safe to eat pani puri at 10 PM?"
-   - "Should I take ORR or Sarjapur Road at 7 PM?"
+## 📝 Technical Blog
+
+**📖 AWS Builder Center Blog**: [Namma Bengaluru: Teaching an AI to Think Like a Local](https://builder.aws.com/content/37SeHGoBKEOtEdC2WrkmcIgekTY/namma-bengaluru-teaching-an-ai-to-think-like-a-local)
+
+This blog explains:
+- The problem this project solves
+- How `.kiro/product.md` teaches local intelligence
+- How Kiro accelerated development
+- Screenshots and real examples of the assistant in action
 
 ## 🔧 Configuration
+
+> By default, the project works inside the Kiro IDE. API keys are optional and only required when using external providers.
 
 Update `CONFIG` in `app.js` to use real AI APIs:
 
